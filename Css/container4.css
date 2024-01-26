@@ -126,3 +126,17 @@
 .icons-pjt img:hover{
     transform: scale(1.1);
 }
+
+
+@media (max-width:728px){
+   .projetos {
+      width: 90vw;
+      height: 1800px;
+   }
+   .containers {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+   }
+
+}

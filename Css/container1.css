@@ -59,3 +59,37 @@
     border-radius: 50%;
     z-index: 1;
  }
+
+ /* RESPONSIVE */
+
+ @media (max-width: 728px) {
+
+   .container-principal {
+      display: flex;
+      width: 90vw;
+      height: 800px;
+      flex-direction: column;
+      gap: 0px;
+   }
+   h1 {
+      width: 90%;
+     
+      margin-bottom: 0px;
+  
+   }
+   h2 {
+      font-size: 32px;
+      width: 100%;
+      transform: translateY(100px);
+      
+    }
+
+   .imagem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80vw;
+      height: 80vh;
+      transform: translateY(30px);
+   }
+ }

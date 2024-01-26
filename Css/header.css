@@ -33,3 +33,13 @@ header {
     letter-spacing: 1px;
    
  }
+
+ @media (max-width:728px){
+   header a {
+      margin: 20px;
+      font-size: 22px;  
+      width: 133px;
+      
+      
+   }
+}
