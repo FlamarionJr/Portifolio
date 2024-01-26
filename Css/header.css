@@ -18,13 +18,18 @@ header {
     font-weight: 600;
     color: white;
     width: 133px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    
+    
  }
  
  header a:hover {
     cursor: pointer;
-    font-size: 25px;
+    transform: scale(1.2);
     background: linear-gradient(#a004ff, #6704b6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
+   
  }

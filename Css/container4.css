@@ -38,6 +38,8 @@
     height: 235px;
     border-radius: 32px;
     transform: translateY(2.5px);
+    transition-property: all;
+    transition-duration: 0.3s;
  }
  .rodape {
     width: 318px;
@@ -46,12 +48,15 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 4px;
+    
  }
  
  .rodape a{
     width: 50px;
     height: 50px;
     display: flex;
+    transition-property: all;
+    transition-duration: 0.3s;
     
  }
  
@@ -76,6 +81,9 @@
  .icons-pjt img {
     width: 50px;
     height: 44px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
  }
  
  .container {
@@ -105,3 +113,16 @@
    line-height: 28px;
    color: white;
  }
+
+ .container-projeto img:hover{
+   transform: scale(.99);
+   padding-top: 4px;
+}
+
+.rodape a:hover{
+    transform: scale(1.1);
+}
+
+.icons-pjt img:hover{
+    transform: scale(1.1);
+}

@@ -29,10 +29,15 @@
  .skill-icons img {
     width: 198px;
     height: 175px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    
+   
  }
  
  .skill-icons img:hover {
     cursor: pointer;
     transform: translateY(-10px);
     box-shadow: 0px 10px rgba(160, 4, 255, 0.04);
+    
  }
