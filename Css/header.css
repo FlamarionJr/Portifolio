@@ -36,10 +36,10 @@ header {
 
  @media (max-width:728px){
    header a {
-      margin: 20px;
-      font-size: 22px;  
-      width: 133px;
-      
+      margin: 0px;
+      font-size: 12px;  
+      width: 60px;
+     transform: translateX(-20px);
       
    }
 }
