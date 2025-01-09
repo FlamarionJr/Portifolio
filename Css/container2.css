@@ -144,7 +144,7 @@
     letter-spacing: 1px;
  }
 
- @media (max-width:900px){
+ @media (max-width:1270px){
    .sobre-contato {
       display: flex;
       flex-direction: column;

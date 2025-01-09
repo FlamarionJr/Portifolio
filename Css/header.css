@@ -33,7 +33,7 @@ header {
    
  }
 
- @media (max-width:900px){
+ @media (max-width:1270px){
    header a {
       margin: 10px;
       font-size: 12px; 
