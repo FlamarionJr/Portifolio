@@ -8,6 +8,7 @@
     align-items: center;
     gap: 166px;
     position: relative;
+    justify-content: center;
  }
  
  .infos {
